@@ -1,0 +1,26 @@
+{
+  "name": "mayuri/libasyncurl",
+  "type": "library",
+  "description": "An async Curl library for PocketMine-MP",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mayuri",
+      "email": "mayuri@dev.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "ext-igbinary": "*"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "1.10.30"
+  },
+  "autoload": {
+    "psr-4": {
+      "libasynCurl\\": "/"
+    }
+  },
+  "minimum-stability": "dev"
+}
